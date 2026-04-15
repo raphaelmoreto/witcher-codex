@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Imagens\Logo\Logo.png" />
+    <None Remove="Assets\Imagens\Sinais\Aard.png" />
+    <None Remove="Assets\Imagens\Sinais\Axii.png" />
+    <None Remove="Assets\Imagens\Sinais\Igni.png" />
+    <None Remove="Assets\Imagens\Sinais\Quen.png" />
+    <None Remove="Assets\Imagens\Sinais\Yrden.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Prism.Core" Version="9.0.537" />
     <PackageReference Include="Prism.Unity" Version="9.0.537" />
     <PackageReference Include="Prism.Wpf" Version="9.0.537" />
@@ -22,9 +31,17 @@
   <ItemGroup>
     <Folder Include="Assets\Imagens\Criaturas_Monstros\" />
     <Folder Include="Assets\Imagens\Ingredientes\" />
-    <Folder Include="Assets\Imagens\Logo\" />
     <Folder Include="Assets\Imagens\Oleos\" />
     <Folder Include="Assets\Imagens\Pocoes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Imagens\Logo\Logo.png" />
+    <Resource Include="Assets\Imagens\Sinais\Aard.png" />
+    <Resource Include="Assets\Imagens\Sinais\Axii.png" />
+    <Resource Include="Assets\Imagens\Sinais\Igni.png" />
+    <Resource Include="Assets\Imagens\Sinais\Quen.png" />
+    <Resource Include="Assets\Imagens\Sinais\Yrden.png" />
   </ItemGroup>
 
 </Project>

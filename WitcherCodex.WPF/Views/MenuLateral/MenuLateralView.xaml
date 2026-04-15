@@ -77,8 +77,13 @@
     <Border Background="#121212" Padding="10">
         <StackPanel>
 
+            <Image Source="/Assets/Imagens/Logo/Logo.png"
+                   Height="90"
+                   Width="120" />
+
+
             <!-- TÍTULO -->
-            <TextBlock Text="Witcher Codex"
+            <!--<TextBlock Text="Witcher Codex"
                        FontSize="16"
                        FontWeight="SemiBold"
                        HorizontalAlignment="Center"
@@ -91,14 +96,14 @@
                         <GradientStop Color="#FF8B7500" Offset="1"/>
                     </LinearGradientBrush>
                 </TextBlock.Foreground>
-            </TextBlock>
+            </TextBlock>-->
 
             <!-- MENU -->
             <RadioButton Content="Bestiário"
                          GroupName="Menu"
                          Style="{StaticResource MenuItemStyle}"
                          Command="{Binding MostrarBestiarioCommand}"
-                         IsChecked="True"/>
+                         IsChecked="True" />
 
             <RadioButton Content="Ingredientes"
                          GroupName="Menu"
