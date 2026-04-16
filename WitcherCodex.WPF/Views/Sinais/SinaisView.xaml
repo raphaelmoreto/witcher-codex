@@ -20,8 +20,7 @@
 
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Border Width="200"
-                        Height="200"
+                    <Border Width="250"
                         Margin="10"
                         Background="#2E2E2E"
                         CornerRadius="15">
@@ -30,8 +29,8 @@
                                 HorizontalAlignment="Center">
 
                             <Image Source="{Binding Imagem}"
-                                   Height="90"
-                                   Width="90"/>
+                                   Height="250"
+                                   Stretch="UniformToFill"/>
 
                             <TextBlock Text="{Binding Nome}"
                                    Foreground="White"

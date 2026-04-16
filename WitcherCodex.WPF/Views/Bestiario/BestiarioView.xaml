@@ -20,14 +20,17 @@
 
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Border Width="200"
-                            Height="200"
+                    <Border Width="300"
                             Margin="10"
                             Background="#2E2E2E"
                             CornerRadius="15">
 
                         <StackPanel VerticalAlignment="Center"
                                     HorizontalAlignment="Center">
+
+                            <Image Source="{Binding Imagem}"
+                                   Height="300"
+                                   Stretch="UniformToFill"/>
 
                             <TextBlock Text="{Binding Nome}"
                                        Foreground="White"

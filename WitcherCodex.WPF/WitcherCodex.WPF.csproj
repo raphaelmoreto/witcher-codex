@@ -9,6 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Imagens\aleatorio.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\Aparicao-Meio-Dia.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\Carnical.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\Ekimmara.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\Golyat.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\Grifo.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\Wyvern.png" />
     <None Remove="Assets\Imagens\Logo\Logo.png" />
     <None Remove="Assets\Imagens\Sinais\Aard.png" />
     <None Remove="Assets\Imagens\Sinais\Axii.png" />
@@ -29,13 +36,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\Imagens\Criaturas_Monstros\" />
     <Folder Include="Assets\Imagens\Ingredientes\" />
     <Folder Include="Assets\Imagens\Oleos\" />
     <Folder Include="Assets\Imagens\Pocoes\" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Assets\Imagens\aleatorio.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\Aparicao-Meio-Dia.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\Carnical.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\Ekimmara.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\Golyat.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\Grifo.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\Wyvern.png" />
     <Resource Include="Assets\Imagens\Logo\Logo.png" />
     <Resource Include="Assets\Imagens\Sinais\Aard.png" />
     <Resource Include="Assets\Imagens\Sinais\Axii.png" />
