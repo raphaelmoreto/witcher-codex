@@ -7,7 +7,7 @@ namespace WitcherCodex.Models.Entities.Oleos
     {
         public string Nome { get; private set; }
 
-        private List<IngredientesEntity> Ingredientes;
+        public IReadOnlyCollection<IngredientesEntity> Ingredientes { get; private set; }
 
         public OleosEntity(string nome, List<IngredientesEntity> ingredientes, string imagem)
         {
@@ -26,13 +26,10 @@ namespace WitcherCodex.Models.Entities.Oleos
 
         public void SetIngredientes(List<IngredientesEntity> ingredientes)
         {
-            if (ingredientes == null)
+            if (ingredientes == null || !ingredientes.Any())
                 return;
 
-            if (!ingredientes.Any())
-                return;
-
-            Ingredientes = new List<IngredientesEntity>(ingredientes);
+            Ingredientes = ingredientes.AsReadOnly();
         }
 
         public void SetImagem(string imagem)

@@ -112,11 +112,13 @@
 
             <RadioButton Content="Óleos"
                          GroupName="Menu"
-                         Style="{StaticResource MenuItemStyle}"/>
+                         Style="{StaticResource MenuItemStyle}"
+                         Command="{Binding MostrarOleosCommand}"/>
 
             <RadioButton Content="Poções"
                          GroupName="Menu"
-                         Style="{StaticResource MenuItemStyle}"/>
+                         Style="{StaticResource MenuItemStyle}"
+                         Command="{Binding MostrarPocoesCommand}"/>
 
             <RadioButton Content="Sinais"
                          GroupName="Menu"

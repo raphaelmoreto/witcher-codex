@@ -8,7 +8,7 @@ namespace WitcherCodex.Models.Entities.Ingredientes
 
         public int Quantidade { get; private set; } = 0;
 
-        public IngredientesEntity(string nome, int quantidade, string imagem)
+        public IngredientesEntity(string nome, int quantidade, string? imagem = null)
         {
             SetNome(nome);
             SetQuantidade(quantidade);
@@ -31,7 +31,7 @@ namespace WitcherCodex.Models.Entities.Ingredientes
             Quantidade = quantidade;
         }
 
-        public void SetImagem(string imagem)
+        public void SetImagem(string? imagem)
         {
             if (string.IsNullOrWhiteSpace(imagem) || imagem.Equals(Imagem))
                 return;

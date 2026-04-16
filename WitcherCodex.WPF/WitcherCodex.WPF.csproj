@@ -17,11 +17,54 @@
     <None Remove="Assets\Imagens\Criaturas_Monstros\Grifo.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Wyvern.png" />
     <None Remove="Assets\Imagens\Logo\Logo.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-amaldicoado-potencializado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-amaldicoado-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-amaldicoado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-besta.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-bestial-potencializado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-draconideo-aprimorado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-draconideo-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-draconideo.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-elemental-aprimorado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-elemental-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-elemental.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-espectros-aprimorado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-espectros-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-espectros.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-hibrido-aprimorado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-hibrido-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-hibrido.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-insectoide-aprimorado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-insectoide-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-insectoide.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-ogroid-aprimorado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-ogroid-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-ogroid.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-relicto-aprimorado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-relicto-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-relicto.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-superior-animais.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-vampiro-potencializado.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-vampiro-superior.png" />
+    <None Remove="Assets\Imagens\Oleos\oleo-vampiro.png" />
+    <None Remove="Assets\Imagens\Oleos\veneno-enforcado-aprimorado.png" />
+    <None Remove="Assets\Imagens\Oleos\veneno-enforcado.png" />
+    <None Remove="Assets\Imagens\Oleos\veneno-superior-enforcado.png" />
     <None Remove="Assets\Imagens\Sinais\Aard.png" />
+    <None Remove="Assets\Imagens\Sinais\Aard2.png" />
+    <None Remove="Assets\Imagens\Sinais\Aard3.png" />
     <None Remove="Assets\Imagens\Sinais\Axii.png" />
+    <None Remove="Assets\Imagens\Sinais\Axii2.png" />
+    <None Remove="Assets\Imagens\Sinais\Axii3.png" />
     <None Remove="Assets\Imagens\Sinais\Igni.png" />
+    <None Remove="Assets\Imagens\Sinais\Igni2.png" />
+    <None Remove="Assets\Imagens\Sinais\Igni3.png" />
     <None Remove="Assets\Imagens\Sinais\Quen.png" />
+    <None Remove="Assets\Imagens\Sinais\Quen2.png" />
+    <None Remove="Assets\Imagens\Sinais\Quen3.png" />
     <None Remove="Assets\Imagens\Sinais\Yrden.png" />
+    <None Remove="Assets\Imagens\Sinais\Yrden2.png" />
+    <None Remove="Assets\Imagens\Sinais\Yrden3.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,7 +80,6 @@
 
   <ItemGroup>
     <Folder Include="Assets\Imagens\Ingredientes\" />
-    <Folder Include="Assets\Imagens\Oleos\" />
     <Folder Include="Assets\Imagens\Pocoes\" />
   </ItemGroup>
 
@@ -50,6 +92,42 @@
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Grifo.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Wyvern.png" />
     <Resource Include="Assets\Imagens\Logo\Logo.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-amaldicoado-potencializado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-amaldicoado-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-amaldicoado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-besta.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-bestial-potencializado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-draconideo-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-draconideo-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-draconideo.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-elemental-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-elemental-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-elemental.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-espectros-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-espectros-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-espectros.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-hibrido-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-hibrido-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-hibrido.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-insectoide-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-insectoide-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-insectoide.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-necrofago-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-necrofago-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-necrofago.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-ogroid-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-ogroid-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-ogroid.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-relicto-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-relicto-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-relicto.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-superior-animais.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-vampiro-potencializado.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-vampiro-superior.png" />
+    <Resource Include="Assets\Imagens\Oleos\oleo-vampiro.png" />
+    <Resource Include="Assets\Imagens\Oleos\veneno-enforcado-aprimorado.png" />
+    <Resource Include="Assets\Imagens\Oleos\veneno-enforcado.png" />
+    <Resource Include="Assets\Imagens\Oleos\veneno-superior-enforcado.png" />
     <Resource Include="Assets\Imagens\Sinais\Aard.png" />
     <Resource Include="Assets\Imagens\Sinais\Axii.png" />
     <Resource Include="Assets\Imagens\Sinais\Igni.png" />

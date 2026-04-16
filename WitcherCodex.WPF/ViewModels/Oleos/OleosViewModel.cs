@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
+using WitcherCodex.Models.Entities.Oleos;
+using WitcherCodex.Repository.Data.Oleos;
 
 namespace WitcherCodex.WPF.ViewModels.Oleos
 {
-    internal class OleosViewModel
+    public class OleosViewModel : BindableBase
     {
+        private readonly OleosRepository _repository;
+
+        public ObservableCollection<OleosEntity> Oleos { get; set; }
+
+        public OleosViewModel()
+        {
+            _repository = new OleosRepository();
+            Oleos = new ObservableCollection<OleosEntity>(_repository.GetOleos());
+        }
     }
 }

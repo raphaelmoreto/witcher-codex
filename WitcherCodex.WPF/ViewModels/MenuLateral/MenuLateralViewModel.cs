@@ -1,6 +1,9 @@
 ﻿using System.Windows.Input;
 using WitcherCodex.WPF.ViewModels.Command;
 using WitcherCodex.WPF.Views.Bestiario;
+using WitcherCodex.WPF.Views.Ingredientes;
+using WitcherCodex.WPF.Views.Oleos;
+using WitcherCodex.WPF.Views.Pocoes;
 using WitcherCodex.WPF.Views.Sinais;
 
 namespace WitcherCodex.WPF.ViewModels.MenuLateral
@@ -12,6 +15,8 @@ namespace WitcherCodex.WPF.ViewModels.MenuLateral
 
         public ICommand MostrarBestiarioCommand { get; }
         public ICommand MostrarIngredientesCommand { get; }
+        public ICommand MostrarOleosCommand { get;  }
+        public ICommand MostrarPocoesCommand { get; }
         public ICommand MostrarSinaisCommand { get; }
 
         public MenuLateralViewModel(IRegionManager regionManager)
@@ -23,8 +28,14 @@ namespace WitcherCodex.WPF.ViewModels.MenuLateral
             MostrarBestiarioCommand = new RelayCommand(_ =>
                 _regionManager.RequestNavigate("MainRegion", nameof(BestiarioView)));
 
-            //MostrarIngredientesCommand = new RelayCommand(_ =>
-            //    _regionManager.RequestNavigate("MainRegion", "IngredientesView"));
+            MostrarIngredientesCommand = new RelayCommand(_ =>
+                _regionManager.RequestNavigate("MainRegion", nameof(IngredientesView)));
+
+            MostrarOleosCommand = new RelayCommand(_ =>
+                _regionManager.RequestNavigate("MainRegion", nameof(OleosView)));
+
+            MostrarPocoesCommand = new RelayCommand(_ =>
+                _regionManager.RequestNavigate("MainRegion", nameof(PocoesView)));
 
             MostrarSinaisCommand = new RelayCommand(_ =>
                 _regionManager.RequestNavigate("MainRegion", nameof(SinaisView)));

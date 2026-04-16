@@ -8,7 +8,69 @@
              prism:ViewModelLocator.AutoWireViewModel="True" 
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+    <ScrollViewer>
+        <ItemsControl ItemsSource="{Binding Oleos}">
+
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel HorizontalAlignment="Center" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border Height="220"
+                        Width="190"
+                        Margin="10"
+                        Background="#2E2E2E"
+                        CornerRadius="15"
+                            ToolTipService.InitialShowDelay="200"
+                            ToolTipService.ShowDuration="10000">
+                        
+                        <!-- TOOLTIP -->
+                        <Border.ToolTip>
+                            <ToolTip Background="#1E1E1E" Padding="10">
+                                <StackPanel>
+
+                                    <TextBlock Text="Ingredientes"
+                                               Foreground="White"
+                                               FontWeight="Bold"
+                                               Margin="0 0 0 5"/>
+
+                                    <ItemsControl ItemsSource="{Binding Ingredientes}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Foreground="White">
+                                                    <Run Text="{Binding Nome, Mode=OneWay}" />
+                                                    <Run Text=" - " />
+                                                    <Run Text="{Binding Quantidade, Mode=OneWay}" />
+                                                </TextBlock>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                </StackPanel>
+                            </ToolTip>
+                        </Border.ToolTip>
+
+                        <StackPanel VerticalAlignment="Center"
+                                HorizontalAlignment="Center">
+
+                            <Image Source="{Binding Imagem}"
+                               Height="190"
+                               Stretch="UniformToFill"/>
+
+                            <TextBlock Text="{Binding Nome}"
+                                   Foreground="White"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Center"/>
+
+                        </StackPanel>
+
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+
+        </ItemsControl>
+    </ScrollViewer>
 </UserControl>
