@@ -1,6 +1,4 @@
-﻿using System.Windows;
-using System.Windows.Controls;
-using WitcherCodex.WPF.ViewModels.MenuLateral;
+﻿using System.Windows.Controls;
 
 namespace WitcherCodex.WPF.Views.MenuLateral
 {
