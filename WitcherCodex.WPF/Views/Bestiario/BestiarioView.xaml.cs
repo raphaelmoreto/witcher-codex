@@ -11,7 +11,7 @@ namespace WitcherCodex.WPF.Views.Bestiario
         public BestiarioView()
         {
             InitializeComponent();
-            DataContext = new BestiarioViewModel();
+            //DataContext = new BestiarioViewModel();
         }
     }
 }

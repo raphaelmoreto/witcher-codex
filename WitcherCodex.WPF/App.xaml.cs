@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using WitcherCodex.WPF.Views.Bestiario;
+using WitcherCodex.WPF.Views.Sinais;
 
 namespace WitcherCodex.WPF
 {
@@ -20,6 +21,7 @@ namespace WitcherCodex.WPF
             //REGISTRA AS VIEWS QUE PODEM SER NAVEGADAS
             containerRegistry.RegisterForNavigation<BestiarioView>();
             //containerRegistry.RegisterForNavigation<IngredientesView>();
+            containerRegistry.RegisterForNavigation<SinaisView>();
         }
 
         protected override void OnInitialized()

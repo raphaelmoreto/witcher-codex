@@ -1,6 +1,7 @@
 ﻿using System.Windows.Input;
 using WitcherCodex.WPF.ViewModels.Command;
 using WitcherCodex.WPF.Views.Bestiario;
+using WitcherCodex.WPF.Views.Sinais;
 
 namespace WitcherCodex.WPF.ViewModels.MenuLateral
 {
@@ -11,6 +12,7 @@ namespace WitcherCodex.WPF.ViewModels.MenuLateral
 
         public ICommand MostrarBestiarioCommand { get; }
         public ICommand MostrarIngredientesCommand { get; }
+        public ICommand MostrarSinaisCommand { get; }
 
         public MenuLateralViewModel(IRegionManager regionManager)
         {
@@ -23,6 +25,9 @@ namespace WitcherCodex.WPF.ViewModels.MenuLateral
 
             //MostrarIngredientesCommand = new RelayCommand(_ =>
             //    _regionManager.RequestNavigate("MainRegion", "IngredientesView"));
+
+            MostrarSinaisCommand = new RelayCommand(_ =>
+                _regionManager.RequestNavigate("MainRegion", nameof(SinaisView)));
         }
     }
 }

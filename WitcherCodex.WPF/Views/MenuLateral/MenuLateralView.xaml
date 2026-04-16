@@ -37,7 +37,7 @@
                                 CornerRadius="8">
 
                             <ContentPresenter VerticalAlignment="Center"
-                                              Margin="10,0"/>
+                                              Margin="5,5"/>
 
                         </Border>
 
@@ -120,7 +120,8 @@
 
             <RadioButton Content="Sinais"
                          GroupName="Menu"
-                         Style="{StaticResource MenuItemStyle}"/>
+                         Style="{StaticResource MenuItemStyle}"
+                         Command="{Binding MostrarSinaisCommand}"/>
 
         </StackPanel>
     </Border>
