@@ -6,6 +6,7 @@ namespace WitcherCodex.Models.Enum.Criaturas_Monstros
         AMALDICOADOS,
         CONSTRUTOS,
         DRACONIDEOS,
+        ELEMENTOS,
         ESPECTROS,
         FERAS,
         HIBRIDOS,

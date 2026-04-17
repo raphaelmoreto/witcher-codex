@@ -1,7 +1,6 @@
 ﻿using System.Windows.Input;
 using WitcherCodex.WPF.ViewModels.Command;
 using WitcherCodex.WPF.Views.Bestiario;
-using WitcherCodex.WPF.Views.Ingredientes;
 using WitcherCodex.WPF.Views.Oleos;
 using WitcherCodex.WPF.Views.Pocoes;
 using WitcherCodex.WPF.Views.Sinais;
@@ -14,7 +13,6 @@ namespace WitcherCodex.WPF.ViewModels.MenuLateral
         private readonly IRegionManager _regionManager;
 
         public ICommand MostrarBestiarioCommand { get; }
-        public ICommand MostrarIngredientesCommand { get; }
         public ICommand MostrarOleosCommand { get;  }
         public ICommand MostrarPocoesCommand { get; }
         public ICommand MostrarSinaisCommand { get; }
@@ -27,9 +25,6 @@ namespace WitcherCodex.WPF.ViewModels.MenuLateral
             //"MainRegion" É O NOME DA REGIÃO DEFINIDO NA VIEW "MainWindow.xaml". É COMO SE FOSSE UM QUADRO NA TELA
             MostrarBestiarioCommand = new RelayCommand(_ =>
                 _regionManager.RequestNavigate("MainRegion", nameof(BestiarioView)));
-
-            MostrarIngredientesCommand = new RelayCommand(_ =>
-                _regionManager.RequestNavigate("MainRegion", nameof(IngredientesView)));
 
             MostrarOleosCommand = new RelayCommand(_ =>
                 _regionManager.RequestNavigate("MainRegion", nameof(OleosView)));

@@ -69,11 +69,43 @@ namespace WitcherCodex.Repository.Data.Criaturas_Monstros
                 ),
                 new Criaturas_MonstrosEntity
                 (
+                    TipoCriaturas_Monstros.ELEMENTOS,
+                    "Elementais de Fogo",
+                    "O fogo é o mais destrutivo dos elementos, portanto, a letalidade agressiva da criatura que personifica sua essência não deve ser surpresa. Elementais do fogo são forjados em rituais mágicos complexos com um único propósito: a destruição. E eles o perseguem com determinação assassina.",
+                    new List<string> { "Óleo Elemental", "Bomba de Dimetério", "Bomba de Vento do Norte", "Sinal Aard" },
+                    @"/Assets/Imagens/Criaturas_Monstros/elementais-fogo.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.ELEMENTOS,
+                    "Elementais de Gelo",
+                    "Um elemental de gelo é uma massa de água congelada animada por magia . Desprovido de consciência ou vontade própria, esse elemental obedece incondicionalmente às ordens do mago que o criou. Essas ordens geralmente contêm apenas uma sílaba: matar.",
+                    new List<string> { "Óleo Elemental", "Bomba de Dimetério", "Sinal Aard" },
+                    @"/Assets/Imagens/Criaturas_Monstros/elementais-gelo.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.ELEMENTOS,
+                    "Elementais de Terra",
+                    "Os elementais da terra são feitos de lama, argila, areia e pó de rocha aglomerados com água e trazidos à vida por magia. Embora aparentemente lentos e pesados, essas criaturas são perigosas e devem ser evitadas a todo custo.",
+                    new List<string> { "Óleo Elemental", "Bomba de Dimetério", "Sinal Quen", "Sinal Yrden", "Sinal Aard" },
+                    @"/Assets/Imagens/Criaturas_Monstros/elementais-terra.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
                     TipoCriaturas_Monstros.RELIQUIAS,
                     "Fugas",
                     "Fugas era um dos muitos servos das Damas da Floresta , que viviam em Bald Mountain.",
                     new List<string> { "Óleo Relicto", "Sinal Igni" },
                     @"/Assets/Imagens/Criaturas_Monstros/fugas.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.ELEMENTOS,
+                    "Gárgulas",
+                    "As gárgulas são oponentes extremamente perigosos. Esculpidas em granito ou mármore, são capazes de suportar quantidades tremendas de dano e exibem força sobre-humana. Um único golpe desferido por seus punhos gigantescos pode esmagar até mesmo um homem com armadura pesada.",
+                    new List<string> { "Óleo Elemental",  "Bomba de Dimetério", "Bomba Estrela Dançante", "Sinal Quen", "Sinal Yrden" },
+                    @"/Assets/Imagens/Criaturas_Monstros/gargulas.png"
                 ),
                 new Criaturas_MonstrosEntity
                 (
@@ -142,8 +174,16 @@ namespace WitcherCodex.Repository.Data.Criaturas_Monstros
                 new Criaturas_MonstrosEntity
                 (
                     TipoCriaturas_Monstros.DRACONIDEOS,
+                    "Widłogon",
+                    "Criatura aparentada aos dragões , porém menor e menos inteligente. Como o próprio nome sugere, pode ser reconhecido por sua cauda bifurcada.",
+                    new List<string> { "Sinal Igni", "Óleo Draconídeo", "Bombas de Colmeia", "Sinal Aard" },
+                    @"/Assets/Imagens/Criaturas_Monstros/widlogon.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.DRACONIDEOS,
                     "Wyvern",
-                    "são uma espécie ameaçada de ornitossauro com pescoços serpentinos e longas caudas que terminam em um tridente venenoso, adornado quase completamente com escamas escuras.",
+                    "São uma espécie ameaçada de ornitossauro com pescoços serpentinos e longas caudas que terminam em um tridente venenoso, adornado quase completamente com escamas escuras.",
                     new List<string> { "Sinal Aard", "Óleo Draconídeo", "Besta" },
                     @"/Assets/Imagens/Criaturas_Monstros/wyvern.png"
                 )                

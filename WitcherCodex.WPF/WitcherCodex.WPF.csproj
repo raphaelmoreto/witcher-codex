@@ -10,6 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Assets\Imagens\Ingredientes\**" />
+    <EmbeddedResource Remove="Assets\Imagens\Ingredientes\**" />
+    <None Remove="Assets\Imagens\Ingredientes\**" />
+    <Page Remove="Assets\Imagens\Ingredientes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Assets\Imagens\aleatorio.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Aparicao-Meio-Dia.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\berserker.png" />
@@ -19,7 +26,11 @@
     <None Remove="Assets\Imagens\Criaturas_Monstros\cocatriz.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\cockatrice.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Ekimmara.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\elementais-fogo.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\elementais-gelo.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\elementais-terra.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\fugas.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\gargulas.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Golyat.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Grifo.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\lobisomen.png" />
@@ -30,6 +41,8 @@
     <None Remove="Assets\Imagens\Criaturas_Monstros\urso.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\vampiro-dettlaff.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\werewolf.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\widlogon.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\widlogon.webp" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Wyvern.png" />
     <None Remove="Assets\Imagens\Logo\Logo.png" />
     <None Remove="Assets\Imagens\Oleos\oleo-amaldicoado-potencializado.png" />
@@ -98,7 +111,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\Imagens\Ingredientes\" />
     <Folder Include="Assets\Imagens\Pocoes\" />
   </ItemGroup>
 
@@ -111,7 +123,11 @@
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Carnical.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\cocatriz.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Ekimmara.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\elementais-fogo.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\elementais-gelo.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\elementais-terra.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\fugas.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\gargulas.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Golyat.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Grifo.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\lobisomen.png" />
@@ -120,6 +136,7 @@
     <Resource Include="Assets\Imagens\Criaturas_Monstros\ulfhedinn.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\urso.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\vampiro-dettlaff.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\widlogon.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Wyvern.png" />
     <Resource Include="Assets\Imagens\Logo\Logo.png" />
     <Resource Include="Assets\Imagens\Oleos\oleo-amaldicoado-potencializado.png" />

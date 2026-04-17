@@ -105,11 +105,6 @@
                          Command="{Binding MostrarBestiarioCommand}"
                          IsChecked="True" />
 
-            <RadioButton Content="Ingredientes"
-                         GroupName="Menu"
-                         Style="{StaticResource MenuItemStyle}"
-                         Command="{Binding MostrarIngredientesCommand}"/>
-
             <RadioButton Content="Óleos"
                          GroupName="Menu"
                          Style="{StaticResource MenuItemStyle}"
