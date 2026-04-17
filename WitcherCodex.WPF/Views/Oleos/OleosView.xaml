@@ -41,8 +41,9 @@
                                         <ItemsControl.ItemTemplate>
                                             <DataTemplate>
                                                 <TextBlock Foreground="White">
-                                                    <Run Text="{Binding Nome, Mode=OneWay}" />
+                                                    • <Run Text="{Binding Nome, Mode=OneWay}" />
                                                     <Run Text=" - " />
+                                                    <Run Text="X"/>
                                                     <Run Text="{Binding Quantidade, Mode=OneWay}" />
                                                 </TextBlock>
                                             </DataTemplate>

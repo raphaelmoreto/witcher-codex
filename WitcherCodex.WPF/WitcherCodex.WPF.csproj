@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Imagens\Logo\witcher-codex-logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -65,6 +66,10 @@
     <None Remove="Assets\Imagens\Sinais\Yrden.png" />
     <None Remove="Assets\Imagens\Sinais\Yrden2.png" />
     <None Remove="Assets\Imagens\Sinais\Yrden3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Imagens\Logo\witcher-codex-logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
