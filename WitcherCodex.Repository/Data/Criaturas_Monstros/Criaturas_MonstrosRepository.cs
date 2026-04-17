@@ -37,6 +37,14 @@ namespace WitcherCodex.Repository.Data.Criaturas_Monstros
                 ),
                 new Criaturas_MonstrosEntity
                 (
+                    TipoCriaturas_Monstros.FERAS,
+                    "Cachorro",
+                    "Os cães são descendentes carnívoros dos lobos que foram domesticados pelos humanos . Embora geralmente dóceis, podem tornar-se selvagens, amaldiçoados, ter uma voracidade anormal ou tudo isso junto. Nesses casos, são tratados como predadores.",
+                    new List<string> { "Sinal Igni", "Óleo de Besta", "Sinal Aard" },
+                    @"/Assets/Imagens/Criaturas_Monstros/cachorro.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
                     TipoCriaturas_Monstros.NECROFAGOS,
                     "Carniçal",
                     "Os carniçais , uma subespécie, tornaram-se os comedores de cadáveres mais comuns, geralmente encontrados vagando em bandos, distinguíveis de seus primos, os alghouls , pela palidez doentia de seu semblante.",
@@ -45,11 +53,27 @@ namespace WitcherCodex.Repository.Data.Criaturas_Monstros
                 ),
                 new Criaturas_MonstrosEntity
                 (
+                    TipoCriaturas_Monstros.DRACONIDEOS,
+                    "Cocatriz",
+                    "Espécie de draconídeo originário de Zerrikania e criado no Norte durante o século XIII. Mais tarde, tornando-se uma praga e às vezes aterrorizando comunidades, eles têm bicos semelhantes aos de pássaros, asas palmadas, dentes afiados como navalhas, garras recurvadas e papadas carmesim.",
+                    new List<string> { "Fogo", "Óleo Necrófagos", "Sinal Igni" },
+                    @"/Assets/Imagens/Criaturas_Monstros/cocatriz.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
                     TipoCriaturas_Monstros.VAMPIROS,
                     "Ekimmara",
                     "Um ekimma ou ekimmara é um tipo de vampiro inferior, semelhante aos fugitivos . Estes tendem a ser mais cruéis e animalescos.",
                     new List<string> { "Óleo de Vampiros", "Sinal Quen", "Sangramento" },
                     @"/Assets/Imagens/Criaturas_Monstros/ekimmara.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.RELIQUIAS,
+                    "Fugas",
+                    "Fugas era um dos muitos servos das Damas da Floresta , que viviam em Bald Mountain.",
+                    new List<string> { "Óleo Relicto", "Sinal Igni" },
+                    @"/Assets/Imagens/Criaturas_Monstros/fugas.png"
                 ),
                 new Criaturas_MonstrosEntity
                 (
@@ -63,9 +87,57 @@ namespace WitcherCodex.Repository.Data.Criaturas_Monstros
                 (
                     TipoCriaturas_Monstros.HIBRIDOS,
                     "Grifo",
-                    "criatura com o corpo, pernas e cauda de um leão e a cabeça, asas e garras de uma águia. Eles são conhecidos por brincar com suas presas, comendo-as vivas, pedaço por pedaço.",
+                    "Criatura com o corpo, pernas e cauda de um leão e a cabeça, asas e garras de uma águia. Eles são conhecidos por brincar com suas presas, comendo-as vivas, pedaço por pedaço.",
                     new List<string> { "Sinal Aard", "Óleo Híbrido", "Besta" },
                     @"/Assets/Imagens/Criaturas_Monstros/grifo.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.FERAS,
+                    "Lobisomen",
+                    "Os lobisomens são teriántropos que se transformam em lobos ou meio-lobos. Como outras criaturas semelhantes, eles são pouco feridos por aço, mas muito vulneráveis ​​à prata .",
+                    new List<string> { "Sinal Igni", "Óleo de Besta", "Besta", "Bombas de Lua de Mel" },
+                    @"/Assets/Imagens/Criaturas_Monstros/lobisomen.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.FERAS,
+                    "Lobo",
+                    "Os lobos são uma espécie de animal selvagem agressiva e carnívora, aparentada aos cães domésticos encontrados em assentamentos humanos.",
+                    new List<string> { "Sinal Igni", "Óleo Amaldiçoado" },
+                    @"/Assets/Imagens/Criaturas_Monstros/lobo.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.AMALDICOADOS,
+                    "Principe Sapo",
+                    "O Príncipe Sapo que rondava os esgotos de Oxenfurt era na verdade o Príncipe Sirvat , [ 1 ] um herdeiro do trono de Ofiri . Ele havia sido amaldiçoado inadvertidamente por Olgierd von Everec, que estava furioso quando os pais de Iris , o amor de Olgierd , planejaram dar a mão da filha em casamento ao príncipe visitante.",
+                    new List<string> { "Sinal Igni", "Óleo Amaldiçoado", "Sinal Yrden" },
+                    @"/Assets/Imagens/Criaturas_Monstros/principe-sapo.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.FERAS,
+                    "Ulfhedinn",
+                    "Ulfhedinn são um tipo de lobisomem encontrado apenas ao redor de Skellige . Eles têm habilidades de combate mais fortes por conta própria, mas, ao contrário dos lobisomens comuns, não podem invocar lobos para ajudá-los",
+                    new List<string> { "Sinal Igni", "Óleo Amaldiçoado", "Sinal Yrden" },
+                    @"/Assets/Imagens/Criaturas_Monstros/ulfhedinn.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.FERAS,
+                    "Urso",
+                    "Os ursos são mamíferos onívoros encontrados no Continente e são habitantes naturais do mundo , o que significa que não chegaram durante a Conjunção das Esferas.",
+                    new List<string> { "Sinal Igni", "Óleo de Besta", "Sinal Quen" },
+                    @"/Assets/Imagens/Criaturas_Monstros/urso.png"
+                ),
+                new Criaturas_MonstrosEntity
+                (
+                    TipoCriaturas_Monstros.VAMPIROS,
+                    "Dettlaff",
+                    "Dettlaff van der Eretein , também conhecido como a Besta de Beauclair , era um vampiro superior responsável por regenerar Emiel Regis Rohellec Terzieff-Godefroy com seu sangue e cuidar dele até que se recuperasse após ser morto por Vilgefortz no ataque ao castelo de Stygga.",
+                    new List<string> { "Sinal Aard", "Óleo de Vampriro", "Bomba de Lua de Mel", "Bomba Estrela Dançante" },
+                    @"/Assets/Imagens/Criaturas_Monstros/vampiro-dettlaff.png"
                 ),
                 new Criaturas_MonstrosEntity
                 (
