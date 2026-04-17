@@ -23,29 +23,64 @@
                     <Border Width="300"
                             Margin="10"
                             Background="#2E2E2E"
-                            CornerRadius="15">
+                            CornerRadius="15"
+                            ToolTipService.InitialShowDelay="200"
+                            ToolTipService.ShowDuration="10000">
+
+                        <!-- TOOLTIP -->
+                        <Border.ToolTip>
+                            <ToolTip Background="#1E1E1E" Padding="10">
+                                <StackPanel>
+
+                                    <TextBlock Text="Tipo"
+                                                   Foreground="White"
+                                                   FontWeight="Bold"
+                                                   Margin="0 0 0 5"/>
+
+                                    <TextBlock Text="{Binding Tipo}"
+                                                   Foreground="White"
+                                                   Margin="0 0 0 5"/>
+
+                                    <TextBlock Text="Fraquezas"
+                                                   Foreground="White"
+                                                   FontWeight="Bold"
+                                                   Margin="0 0 0 5"/>
+
+                                    <ItemsControl ItemsSource="{Binding Fraquezas}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Foreground="White">
+                                                        • <Run Text="{Binding Mode=OneWay}"/>
+                                                </TextBlock>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                </StackPanel>
+                            </ToolTip>
+                        </Border.ToolTip>
 
                         <StackPanel VerticalAlignment="Center"
                                     HorizontalAlignment="Center">
 
                             <Image Source="{Binding Imagem}"
-                                   Height="300"
-                                   Stretch="UniformToFill"/>
+                                       Height="300"
+                                       Stretch="UniformToFill"/>
 
                             <TextBlock Text="{Binding Nome}"
-                                       Foreground="White"
-                                       FontWeight="Bold"
-                                       HorizontalAlignment="Center"/>
+                                           Foreground="White"
+                                           FontWeight="Bold"
+                                           HorizontalAlignment="Center"/>
 
                             <TextBlock Text="{Binding Descricao}"
-                                       TextWrapping="Wrap"
-                                       Foreground="LightGray"
-                                       FontSize="12"
-                                       Margin="5"
-                                       TextAlignment="Center"/>
+                                           TextWrapping="Wrap"
+                                           Foreground="LightGray"
+                                           FontSize="12"
+                                           Margin="5"
+                                           TextAlignment="Center"/>
                         </StackPanel>
-
                     </Border>
+
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
 

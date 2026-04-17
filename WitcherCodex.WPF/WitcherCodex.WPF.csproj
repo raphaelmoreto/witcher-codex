@@ -12,10 +12,21 @@
   <ItemGroup>
     <None Remove="Assets\Imagens\aleatorio.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Aparicao-Meio-Dia.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\berserker.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\bruxa-agua.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\cachorro.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Carnical.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\cockatrice.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Ekimmara.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\fugas.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Golyat.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Grifo.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\lobo.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\toad-prince.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\ulfhedinn.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\urso.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\vampiro-dettlaff.png" />
+    <None Remove="Assets\Imagens\Criaturas_Monstros\werewolf.png" />
     <None Remove="Assets\Imagens\Criaturas_Monstros\Wyvern.png" />
     <None Remove="Assets\Imagens\Logo\Logo.png" />
     <None Remove="Assets\Imagens\Oleos\oleo-amaldicoado-potencializado.png" />
@@ -91,10 +102,21 @@
   <ItemGroup>
     <Resource Include="Assets\Imagens\aleatorio.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Aparicao-Meio-Dia.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\berserker.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\bruxa-agua.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\cachorro.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Carnical.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\cockatrice.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Ekimmara.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\fugas.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Golyat.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Grifo.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\lobo.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\toad-prince.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\ulfhedinn.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\urso.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\vampiro-dettlaff.png" />
+    <Resource Include="Assets\Imagens\Criaturas_Monstros\werewolf.png" />
     <Resource Include="Assets\Imagens\Criaturas_Monstros\Wyvern.png" />
     <Resource Include="Assets\Imagens\Logo\Logo.png" />
     <Resource Include="Assets\Imagens\Oleos\oleo-amaldicoado-potencializado.png" />

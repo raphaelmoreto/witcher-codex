@@ -11,7 +11,7 @@ namespace WitcherCodex.Models.Entities.Criaturas_Monstros
 
         public string Descricao { get; private set; } = string.Empty;
 
-        private List<string> Fraquezas;
+        public List<string> Fraquezas { get; private set; }
 
         public Criaturas_MonstrosEntity(TipoCriaturas_Monstros tipo, string nome, string descricao, List<string> fraquezas, string imagem)
         {
