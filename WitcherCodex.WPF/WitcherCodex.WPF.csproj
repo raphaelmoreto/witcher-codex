@@ -78,6 +78,22 @@
     <None Remove="Assets\Imagens\Oleos\veneno-enforcado-aprimorado.png" />
     <None Remove="Assets\Imagens\Oleos\veneno-enforcado.png" />
     <None Remove="Assets\Imagens\Oleos\veneno-superior-enforcado.png" />
+    <None Remove="Assets\Imagens\Pocoes\antidoto-mofodo.png" />
+    <None Remove="Assets\Imagens\Pocoes\coruja-parda.png" />
+    <None Remove="Assets\Imagens\Pocoes\decluticao.png" />
+    <None Remove="Assets\Imagens\Pocoes\decoracao-raffard-branco.png" />
+    <None Remove="Assets\Imagens\Pocoes\feromonios-afogamento.png" />
+    <None Remove="Assets\Imagens\Pocoes\filtro-petri.png" />
+    <None Remove="Assets\Imagens\Pocoes\floresta-maribor.png" />
+    <None Remove="Assets\Imagens\Pocoes\gato.png" />
+    <None Remove="Assets\Imagens\Pocoes\lua-cheia.png" />
+    <None Remove="Assets\Imagens\Pocoes\mel-branco.png" />
+    <None Remove="Assets\Imagens\Pocoes\nevasca.png" />
+    <None Remove="Assets\Imagens\Pocoes\orca.png" />
+    <None Remove="Assets\Imagens\Pocoes\oriole-dourado.png" />
+    <None Remove="Assets\Imagens\Pocoes\pocao-limpeza.png" />
+    <None Remove="Assets\Imagens\Pocoes\pocao-restauracao.png" />
+    <None Remove="Assets\Imagens\Pocoes\trovao.png" />
     <None Remove="Assets\Imagens\Sinais\Aard.png" />
     <None Remove="Assets\Imagens\Sinais\Aard2.png" />
     <None Remove="Assets\Imagens\Sinais\Aard3.png" />
@@ -108,10 +124,6 @@
   <ItemGroup>
     <ProjectReference Include="..\WitcherCodex.Models\WitcherCodex.Models.csproj" />
     <ProjectReference Include="..\WitcherCodex.Repository\WitcherCodex.Repository.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Assets\Imagens\Pocoes\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -175,6 +187,23 @@
     <Resource Include="Assets\Imagens\Oleos\veneno-enforcado-aprimorado.png" />
     <Resource Include="Assets\Imagens\Oleos\veneno-enforcado.png" />
     <Resource Include="Assets\Imagens\Oleos\veneno-superior-enforcado.png" />
+    <Resource Include="Assets\Imagens\Pocoes\antidoto-mofodo.png" />
+    <Resource Include="Assets\Imagens\Pocoes\coruja-parda.png" />
+    <Resource Include="Assets\Imagens\Pocoes\decluticao.png" />
+    <Resource Include="Assets\Imagens\Pocoes\decoracao-raffard-branco.png" />
+    <Resource Include="Assets\Imagens\Pocoes\feromonios-afogamento.png" />
+    <Resource Include="Assets\Imagens\Pocoes\filtro-petri.png" />
+    <Resource Include="Assets\Imagens\Pocoes\floresta-maribor.png" />
+    <Resource Include="Assets\Imagens\Pocoes\gato.png" />
+    <Resource Include="Assets\Imagens\Pocoes\lua-cheia.png" />
+    <Resource Include="Assets\Imagens\Pocoes\mel-branco.png" />
+    <Resource Include="Assets\Imagens\Pocoes\nevasca.png" />
+    <Resource Include="Assets\Imagens\Pocoes\orca.png" />
+    <Resource Include="Assets\Imagens\Pocoes\oriole-dourado.png" />
+    <Resource Include="Assets\Imagens\Pocoes\pocao-limpeza.png" />
+    <Resource Include="Assets\Imagens\Pocoes\pocao-restauracao.png" />
+    <Resource Include="Assets\Imagens\Pocoes\sangue-negro.png" />
+    <Resource Include="Assets\Imagens\Pocoes\trovao.png" />
     <Resource Include="Assets\Imagens\Sinais\Aard.png" />
     <Resource Include="Assets\Imagens\Sinais\Axii.png" />
     <Resource Include="Assets\Imagens\Sinais\Igni.png" />

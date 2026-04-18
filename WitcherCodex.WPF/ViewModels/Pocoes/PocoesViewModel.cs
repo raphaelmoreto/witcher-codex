@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
+using WitcherCodex.Models.Entities.Pocoes;
+using WitcherCodex.Repository.Data.Pocoes;
 
 namespace WitcherCodex.WPF.ViewModels.Pocoes
 {
-    internal class PocoesViewModel
+    public class PocoesViewModel : BindableBase
     {
+        private readonly PocoesRepository _repository;
+
+        public ObservableCollection<PocoesEntity> Pocoes { get; set; }
+
+        public PocoesViewModel()
+        {
+            _repository = new PocoesRepository();
+            Pocoes = new ObservableCollection<PocoesEntity>(_repository.GetPocoes());
+        }
     }
 }

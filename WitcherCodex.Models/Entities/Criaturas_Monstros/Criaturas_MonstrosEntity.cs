@@ -70,10 +70,5 @@ namespace WitcherCodex.Models.Entities.Criaturas_Monstros
 
             Imagem = imagem;
         }
-
-        public IReadOnlyCollection<string> GetFraquezas()
-        {
-            return Fraquezas.AsReadOnly();
-        }
     }
 }

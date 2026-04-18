@@ -13,7 +13,7 @@ namespace WitcherCodex.Models.Entities.Pocoes
 
         public int Toxidade { get; private set; } = 0;
 
-        public List<IngredientesEntity> Ingredientes;
+        public List<IngredientesEntity> Ingredientes { get; set; }
 
         public PocoesEntity(string efeitos, string nome, double duracao, int toxidade, List<IngredientesEntity> ingredientes, string imagem)
         {
@@ -65,7 +65,7 @@ namespace WitcherCodex.Models.Entities.Pocoes
             if (!ingredientes.Any())
                 return;
 
-            Ingredientes = new List<IngredientesEntity>(ingredientes);
+            Ingredientes = ingredientes;
         }
 
         public void SetImagem(string imagem)
@@ -74,11 +74,6 @@ namespace WitcherCodex.Models.Entities.Pocoes
                 return;
 
             Imagem = imagem;
-        }
-
-        public IReadOnlyCollection<IngredientesEntity> GetIngredientes()
-        {
-            return Ingredientes.AsReadOnly();
         }
     }
 }
